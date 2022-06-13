@@ -10,7 +10,7 @@ const Register = () => {
         <input type="text" placeholder="Last Name" />
         <input type="text" placeholder="Email" />
         <input type="text" placeholder="Password" />
-        <button className="submit">Sign Up!!</button>
+        <button className="submit">Sign Up</button>
       </div>
     </div>
   );
