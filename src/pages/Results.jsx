@@ -1,7 +1,7 @@
 import React from "react";
 
 const Results = () => {
-  return <div>Results - TESTING 3RD TIME</div>;
+  return <div>Results - desktop</div>;
 };
 
 export default Results;
