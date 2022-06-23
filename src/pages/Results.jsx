@@ -1,7 +1,7 @@
 import React from "react";
 
 const Results = () => {
-  return <div>DESKTOP</div>;
+  return <div>laptop...</div>;
 };
 
 export default Results;
