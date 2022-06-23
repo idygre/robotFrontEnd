@@ -1,7 +1,7 @@
 import React from "react";
 
 const Results = () => {
-  return <div>Results - desktop.........test on vsc</div>;
+  return <div>DESKTOP</div>;
 };
 
 export default Results;
