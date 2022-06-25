@@ -33,7 +33,7 @@ const Results = () => {
           ></button>
 
           <div className="label">
-            <label htmlFor="process" className="send-results">
+            <label htmlFor="train" className="send-results">
               Send Results
             </label>
           </div>

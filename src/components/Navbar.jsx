@@ -26,6 +26,10 @@ const Navbar = ({ user }) => {
             <li className="listItem">Training Results</li>
           </Link>
 
+          <Link className="link" to="/Livestream">
+            <li className="listItem">Live Stream</li>
+          </Link>
+
           <li className="listItem">Logout</li>
         </ul>
       ) : (

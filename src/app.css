@@ -232,7 +232,9 @@ input {
   border-radius: 20px;
 }
 
-.uploadPage {
+.uploadPage,
+.livestreamPage,
+.trainPage {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -240,16 +242,19 @@ input {
   flex-direction: column;
 }
 
-.uploadContainer {
+.uploadContainer,
+.trainContainer,
+.liveContainer {
   box-shadow: 0px 0px 9px -4px #000000;
   border-radius: 15px;
   padding: 30px;
 }
 
-.uploadTitle {
+.uploadTitle,
+.trainTitle,
+.liveTitle {
   text-align: center;
   font-family: Arial, sans-serif;
-  margin-top: 1rem;
   font-weight: bold;
 }
 
@@ -266,10 +271,6 @@ input {
   height: 450px;
   object-fit: contain;
   margin: auto;
-}
-
-#input[type="file"] {
-  display: none;
 }
 
 .label {
@@ -293,10 +294,6 @@ input {
   font-family: Arial, sans-serif;
 }
 
-#input[type="file"] {
-  display: none;
-}
-
 .process {
   margin: auto;
   width: 160px;
@@ -310,12 +307,18 @@ input {
   font-family: Arial, sans-serif;
 }
 
-#process[type="button"] {
+#process[type="button"],
+#input[type="file"],
+#train[type="button"],
+#startLive[type="button"],
+#stopLive[type="button"] {
   display: none;
 }
 
 .process-image,
-.send-results {
+.send-results,
+.start-live,
+.stop-live {
   margin: auto;
   width: 160px;
   height: 40px;
@@ -327,20 +330,6 @@ input {
   margin-top: 20px;
   cursor: pointer;
   font-family: Arial, sans-serif;
-}
-
-.trainPage {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.trainContainer {
-  box-shadow: 0px 0px 9px -4px #000000;
-  border-radius: 15px;
-  padding: 30px;
 }
 
 .trainTitle {
@@ -405,8 +394,4 @@ input {
   color: black;
   font-size: 15px;
   font-weight: 50;
-}
-
-#train[type="button"] {
-  display: none;
 }
