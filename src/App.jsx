@@ -7,6 +7,7 @@ import Results from "./pages/Results";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Livestream from "./pages/Livestream";
+import Profile from "./pages/Profile";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 const App = () => {
@@ -20,6 +21,10 @@ const App = () => {
           <Route
             path="/login"
             element={user ? <Navigate to="/" /> : <Login />}
+          />
+          <Route
+            path="/Profile"
+            element={user ? <Profile /> : <Navigate to="/login" />}
           />
           <Route
             path="/ImagePortal"

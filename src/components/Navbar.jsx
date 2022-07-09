@@ -18,7 +18,9 @@ const Navbar = ({ user }) => {
               className="avatar"
             />
           </li>
-          <li className="listItem">John Doe</li>
+          <Link className="link" to="/Profile">
+            <li className="listItem">John Doe</li>
+          </Link>
           <Link className="link" to="/ImagePortal">
             <li className="listItem">Image Portal</li>
           </Link>
