@@ -45,13 +45,13 @@ export default class ImagePortal extends Component {
           </button>
 
           <div className="label">
-            <label htmlFor="input" className="image-upload">
+            <label htmlFor="input" className="btn">
               Upload Image
             </label>
           </div>
 
           <div className="label">
-            <label htmlFor="process" className="process-image">
+            <label htmlFor="process" className="btn">
               Process Image
             </label>
           </div>

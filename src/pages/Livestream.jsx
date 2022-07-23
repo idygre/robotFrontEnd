@@ -19,7 +19,7 @@ const Livestream = () => {
           ></button>
 
           <div className="label">
-            <label htmlFor="startLive" className="start-live">
+            <label htmlFor="startLive" className="btn">
               Start
             </label>
           </div>
@@ -34,7 +34,7 @@ const Livestream = () => {
           ></button>
 
           <div className="label">
-            <label htmlFor="stopLive" className="stop-live">
+            <label htmlFor="stopLive" className="btn">
               Stop
             </label>
           </div>

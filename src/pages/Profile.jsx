@@ -34,7 +34,7 @@ const Profile = () => {
           placeholder="Confirm Password"
         />
 
-        <button className="submit">Submit Changes</button>
+        <button className=" btn">Submit Changes</button>
       </div>
     </div>
   );

@@ -1,10 +1,34 @@
 * {
   margin: 0;
 }
+:root {
+  --color-primary: #010c6b;
+  --transition: all 400ms ease;
+  --color-white: #fff;
+  --color-bg: #1e1e3a;
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  background-color: transparent;
+}
 
 .navbar {
   height: 50px;
-  background-color: #43abdf;
+  background-color: #010c6b;
   color: white;
   display: flex;
   align-items: center;
@@ -178,12 +202,13 @@ input {
 
 .submit {
   width: 200px;
-  background-color: #43abdf;
-  color: white;
-  font-weight: bold;
-  border: none;
-  padding: 15px 20px;
-  border-radius: 5px;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
   margin-bottom: 20px;
 }
 
@@ -437,7 +462,8 @@ input {
 }
 
 .updateProfileText {
-  margin-right: 300px;
+  align-items: center;
+
   margin-top: 40px;
   font-family: Arial, sans-serif;
   font-weight: normal;
@@ -447,11 +473,11 @@ input {
 }
 
 .profileInput {
-  width: 500px;
+  width: auto;
   padding: 15px 20px;
   margin-bottom: 20px;
   border: none;
-  border-bottom: 1px solid #1890ff;
+  border-bottom: 1px solid #010c6b;
   padding: 5px 10px;
   outline: none;
 }
